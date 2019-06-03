@@ -18,15 +18,17 @@ body {
 }
 
 h1{
-  font-size: 6vw;
+  font-size: 3rem;
 }
 
 h3, #tribute-info h3 {
-  font-size: 3vw;
+  font-size: 2rem;
 }
 
 #tribute-info h3 {
   text-align: left;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 h3 {
@@ -34,8 +36,8 @@ h3 {
 }
 
 section * {
-  font-size: 2.5vw;
-  padding: 15px;
+  font-size: 1.2rem;
+  padding: 3%;
 }
 
 
@@ -44,7 +46,7 @@ section * {
 }
 
 .top p, #tribute-info blockquote, figcaption {
-  font-size: 2vw;
+  font-size: 1rem;
   font-style: italic;
   text-align: center;
 }
@@ -58,14 +60,14 @@ section * {
 #img-div {
   background-color: #0A0C1F;
   align-items: end;
-  padding: 10px;
+  padding: 2%;
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 
 #img-caption {
-  padding-top: 10px;
+  padding: 2%;
   color: antiquewhite;
   font-weight: bold;
 }
@@ -75,56 +77,31 @@ a, a:visited {
   opacity: 0.8;
 }
 
+strong, a {
+  margin: 0px;
+  padding: 0px;
+}
+
 @media (max-width: 700px){
   body {
     grid-template-columns: auto;
   }
-
-
-section * {
-  padding: 15px;
-}
-  strong, a {
-  margin: 0px;
-  padding: 0px;
-}
-  
 }
 
 @media (min-width: 701px){
   body {
-    margin: 1% 5%;
+    margin: 2% 10%;
 }
-  
   
 body * {
   grid-column: 2/3;
-  margin: 10px 20px 10px 20px;
 }
   
 h1 {
-  padding: 30px;
+  padding-top: 5%;
 }
 
 section {
-  padding: 25px 0px 25px 0px;
-}
-
-section * {
-  padding: 15px;
-}
-  
-.top p, #tribute-info blockquote {
-  font-style: italic;
-}
-  strong, a {
-  margin: 0px;
-  padding: 0px;
-}
-  
-  img {
-    width: 75%;
-  }
-
-  
+  padding: 1% 0% 1% 0%;
+}  
 }
