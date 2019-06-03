@@ -1,0 +1,130 @@
+/* Test */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* Personal style */
+:root {
+  background-color: #0A0C1F;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  display: grid;
+}
+
+h1{
+  font-size: 6vw;
+}
+
+h3, #tribute-info h3 {
+  font-size: 3vw;
+}
+
+#tribute-info h3 {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+section * {
+  font-size: 2.5vw;
+  padding: 15px;
+}
+
+
+#tribute-info li {
+  list-style: none;
+}
+
+.top p, #tribute-info blockquote, figcaption {
+  font-size: 2vw;
+  font-style: italic;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#img-div {
+  background-color: #0A0C1F;
+  align-items: end;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#img-caption {
+  padding-top: 10px;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+a, a:visited {
+  color: #0A0C1F;
+  opacity: 0.8;
+}
+
+@media (max-width: 700px){
+  body {
+    grid-template-columns: auto;
+  }
+
+
+section * {
+  padding: 15px;
+}
+  strong, a {
+  margin: 0px;
+  padding: 0px;
+}
+  
+}
+
+@media (min-width: 701px){
+  body {
+    margin: 1% 5%;
+}
+  
+  
+body * {
+  grid-column: 2/3;
+  margin: 10px 20px 10px 20px;
+}
+  
+h1 {
+  padding: 30px;
+}
+
+section {
+  padding: 25px 0px 25px 0px;
+}
+
+section * {
+  padding: 15px;
+}
+  
+.top p, #tribute-info blockquote {
+  font-style: italic;
+}
+  strong, a {
+  margin: 0px;
+  padding: 0px;
+}
+  
+  img {
+    width: 75%;
+  }
+
+  
+}
