@@ -17,7 +17,7 @@ body {
   display: grid;
 }
 
-h1{
+h1 {
   font-size: 3rem;
 }
 
@@ -27,22 +27,27 @@ h3, #tribute-info h3 {
 
 #tribute-info h3 {
   text-align: left;
-  padding-bottom: 0;
-  margin-bottom: 0;
 }
 
-h3 {
+#bottom {
   text-align: center;
+  margin: 0% 3% 2% 3%;
 }
 
 section * {
   font-size: 1.2rem;
-  padding: 3%;
+  padding: 0% 3% 3% 3%;
+}
+
+#headline {
+  margin: 0;
 }
 
 
 #tribute-info li {
   list-style: none;
+  text-align: justify;
+  line-height: 1.5em;
 }
 
 .top p, #tribute-info blockquote, figcaption {
@@ -58,17 +63,20 @@ section * {
 }
 
 #img-div {
-  background-color: #0A0C1F;
+  background-color: ;
   align-items: end;
-  padding: 2%;
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 
+img {
+  border: solid #0A0C1F;
+}
+
 #img-caption {
-  padding: 2%;
-  color: antiquewhite;
+  padding-top: 2%;
+  color: #0A0C1F;
   font-weight: bold;
 }
 
@@ -97,11 +105,11 @@ body * {
   grid-column: 2/3;
 }
   
-h1 {
-  padding-top: 5%;
-}
-
-section {
-  padding: 1% 0% 1% 0%;
-}  
+  img {
+    width: 60%;
+  }
+  
+  section {
+    padding-top: 2%;
+  }
 }
